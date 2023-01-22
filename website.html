@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Registeration Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+        <img class="img-background" src="img/background.jpg" alt="background">
+        <div class="signin-box">
+            <h1>Sign-in</h1>
+            <p>Don't have an account ?
+                <a href="">Create your account</a>, it takes less than a minute
+            </p>
+
+            <form class="form" id="form" action="/" method="get">
+                <div class="input-control">
+                    <label for="Fullname">Full Name</label>
+                    <input id="username" name="username" type="text">
+                    <div class="error"></div>
+                    <br>
+                </div>
+                <div class="input-control">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="text">
+                    <div class="error"></div>
+                    <br>
+                </div>
+                <div class="input-control">
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="password">
+                    <div class="error"></div>
+                    <br>
+                </div>
+                <div class="check">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">I accept Terms, Conditions & Privacy Policy. </label>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
